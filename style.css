@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  max-width: 90%;
+  margin: 0 auto;
+
+}
+
+.lg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  display: block;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -40px;
+}
+
+nav li {
+  margin: 0 
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  background-color: white;
+  min-height: 60vh;
+}
+
+.img{
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin-bottom: 30px ;
+}
+
+.lateral{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  flex-shrink: 0;
+  margin-top: 80px;
+}
+
+.text{
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.historia{
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloco p{
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Container do carrossel */
+.carousel {
+  max-width: 600px;
+  height: 400px; 
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Ajuste das imagens no carrossel */
+.carousel-item {
+  height: 100%; 
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
+  background-color: #000000;
+}
+
+.img-fluid {
+  max-height: 250px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.img-fluid{
+  margin-top: 100px;
+}
+
+
